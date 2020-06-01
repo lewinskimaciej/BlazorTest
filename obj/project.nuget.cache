@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "BvMUOwOAmzaOXJNucyqWvY6KJwQDSiFqIfG+fUvCn0UWqfRScSF4NJhCwaS1lpd+yVJIAQIqSrao3UlkX3XxcQ==",
+  "success": true,
+  "projectFilePath": "C:\\repos\\TestBlazor\\TestBlazor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\PLUSR6000250\\.nuget\\packages\\blazored.modal\\4.1.0\\blazored.modal.4.1.0.nupkg.sha512",
+    "C:\\Users\\PLUSR6000250\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.2\\microsoft.aspnetcore.authorization.3.1.2.nupkg.sha512",
+    "C:\\Users\\PLUSR6000250\\.nuget\\packages\\microsoft.aspnetcore.components\\3.1.2\\microsoft.aspnetcore.components.3.1.2.nupkg.sha512",
+    "C:\\Users\\PLUSR6000250\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\3.1.2\\microsoft.aspnetcore.components.analyzers.3.1.2.nupkg.sha512",
+    "C:\\Users\\PLUSR6000250\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\3.1.2\\microsoft.aspnetcore.components.forms.3.1.2.nupkg.sha512",
+    "C:\\Users\\PLUSR6000250\\.nuget\\packages\\microsoft.aspnetcore.components.web\\3.1.2\\microsoft.aspnetcore.components.web.3.1.2.nupkg.sha512",
+    "C:\\Users\\PLUSR6000250\\.nuget\\packages\\microsoft.aspnetcore.metadata\\3.1.2\\microsoft.aspnetcore.metadata.3.1.2.nupkg.sha512",
+    "C:\\Users\\PLUSR6000250\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.2\\microsoft.extensions.dependencyinjection.3.1.2.nupkg.sha512",
+    "C:\\Users\\PLUSR6000250\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.2\\microsoft.extensions.dependencyinjection.abstractions.3.1.2.nupkg.sha512",
+    "C:\\Users\\PLUSR6000250\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.2\\microsoft.extensions.logging.abstractions.3.1.2.nupkg.sha512",
+    "C:\\Users\\PLUSR6000250\\.nuget\\packages\\microsoft.extensions.options\\3.1.2\\microsoft.extensions.options.3.1.2.nupkg.sha512",
+    "C:\\Users\\PLUSR6000250\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.2\\microsoft.extensions.primitives.3.1.2.nupkg.sha512",
+    "C:\\Users\\PLUSR6000250\\.nuget\\packages\\microsoft.jsinterop\\3.1.2\\microsoft.jsinterop.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

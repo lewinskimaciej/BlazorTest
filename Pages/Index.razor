@@ -1,0 +1,28 @@
+﻿@page "/"
+@inject IModalService ModalService
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+<SurveyPrompt Title="How is Blazor working for you?" />
+
+<button class="btn btn-primary" @onclick="@(async () => await ShowModal(5))">Open modal</button>
+
+@code {
+
+    public async Task ShowModal(int idToPassToModal)
+    {
+        var parameters = new ModalParameters();
+        parameters.Add(nameof(TestModal.Id), idToPassToModal);
+
+        var options = new ModalOptions
+        {
+            HideCloseButton = false,
+            DisableBackgroundCancel = false
+        };
+        
+        var modalRef = ModalService.Show<TestModal>(idToPassToModal.ToString(), parameters, options);
+        var result = await modalRef.Result;
+        Console.WriteLine($"Modal finished with data: {result.Data}, dataType: {result.DataType} cancelled: {result.Cancelled}");
+    }
+}

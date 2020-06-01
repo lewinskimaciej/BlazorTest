@@ -1,0 +1,17 @@
+﻿<p>This is a test modal with given Id: @Id</p>
+
+<button class="btn btn-primary" @onclick="Close">Close</button>
+
+@code {
+
+    [CascadingParameter]
+    BlazoredModalInstance BlazoredModal { get; set; }
+    
+    [Parameter]
+    public int Id { get; set; }
+
+    public void Close()
+    {
+        BlazoredModal.Close();
+    }
+}
